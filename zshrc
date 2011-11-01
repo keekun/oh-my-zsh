@@ -7,6 +7,7 @@ ZSH=$HOME/.keekun_zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="muse"
 
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -28,5 +29,6 @@ plugins=(git rails ruby textmate osx macports rails rails3 python vi-mode histor
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.profile
+setopt append_history share_history histignorealldups
 
 # Customize to your needs...
